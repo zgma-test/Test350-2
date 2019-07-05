@@ -1,0 +1,107 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ecbd7027-cff3-4e3e-9a5d-ebd73fb38adc": {
+        "id": "ecbd7027-cff3-4e3e-9a5d-ebd73fb38adc",
+        "parent": null,
+        "name": "Test350-2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "a3af8d20-428c-40fc-9a1d-8bfffd5b9706"
+        ],
+        "isRemovable": false,
+        "filePath": "Test350-2"
+      },
+      "a3af8d20-428c-40fc-9a1d-8bfffd5b9706": {
+        "id": "a3af8d20-428c-40fc-9a1d-8bfffd5b9706",
+        "parent": "ecbd7027-cff3-4e3e-9a5d-ebd73fb38adc",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test350-2/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInametestany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "ecbd7027-cff3-4e3e-9a5d-ebd73fb38adc",
+    "openFiles": [
+      "a3af8d20-428c-40fc-9a1d-8bfffd5b9706"
+    ],
+    "currentFileId": "a3af8d20-428c-40fc-9a1d-8bfffd5b9706",
+    "resources": {
+      "apigusEast1sachithraAPInametestany": {
+        "name": "apigusEast1sachithraAPInametestany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "test",
+          "resourcePath": "/test",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "wd",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Test350-2",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1562309606013
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Test350-2",
+      "url": "https://github.com/zgma-test/Test350-2"
+    }
+  }
+}
